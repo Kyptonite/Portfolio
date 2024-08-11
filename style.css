@@ -1,0 +1,90 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+header p {
+    display: inline;
+    margin-right: 1300px;
+    font-weight: bold;
+
+}
+
+#toggleSreenScheme {
+    justify-content: right;
+    width: 150px;
+    height: 60px;
+    font-weight: 600;
+    border: solid 2px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+
+main {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display {
+    text-align: right;
+    width: 89%;
+    padding: 20px;
+    font-size: 5rem;
+    border: none;
+    background-color: hsl(0, 0%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
